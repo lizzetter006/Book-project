@@ -64,7 +64,7 @@ function addBook(e){
         publishingDate: e.target.publishingDate.value
       }
       createBook(book)
-          
+          console.log(book);
 }
 
 // function renderBook(book){
